@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/master_data"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:text="Master Data "/>
+
+            <!--<br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                android:id="@+id/view_details"
+                android:text="View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>-->
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Channel :"/>
+            <Spinner
+                android:id="@+id/channel_plus_spinner"
+                android:spinnerMode="dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>-->
+        <TextView
+            android:id="@+id/dashboard_details"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text=" "/>
+
+        <TextView
+            android:id="@+id/device_id"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Device Id :"/>
+
+        <TextView
+            android:id="@+id/serial_no"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Serial No. :"/>
+
+        <TextView
+            android:id="@+id/date_md"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Date :"/>
+
+        <TextView
+            android:id="@+id/time_md"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Time :"/>
+
+        <TextView
+            android:id="@+id/relay"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Relay :"/>
+
+        <TextView
+            android:id="@+id/voltage"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Voltage :"/>
+
+        <TextView
+            android:id="@+id/frequency"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Frequency :"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="View Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
+            android:id="@+id/view_md_details"/>
+
+    </LinearLayout>
+
+</LinearLayout>

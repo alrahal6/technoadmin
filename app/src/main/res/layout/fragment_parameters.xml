@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ParametersFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/channel_no"
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:text="Channel "/>
+
+            <TextView
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/yellow"
+                android:text="Parameters "/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/current"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Current :"/>
+
+        <TextView
+            android:id="@+id/load"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Load :"/>
+
+        <TextView
+            android:id="@+id/power_factor"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Power Factor :"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:text="Cumulative kWh"/>
+
+        <TextView
+            android:id="@+id/current_month"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Current Month :"/>
+
+        <TextView
+            android:id="@+id/last_month"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Last Month :"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:text="Running Days"/>
+
+        <TextView
+            android:id="@+id/current_bill"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="(Current Bill Cycle) :"/>
+
+        <TextView
+            android:id="@+id/last_bill"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Last Bill Payment Date :"/>
+        <TextView
+            android:id="@+id/system_fault"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="System Fault :"/>
+        <Button
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/view_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
+            android:text="View " />
+    </LinearLayout>
+
+</LinearLayout>

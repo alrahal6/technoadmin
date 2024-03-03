@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/selected_channel_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Channel :"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:id="@+id/parameter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Parameters"/>
+
+        <Button
+            android:layout_margin="25dp"
+            android:padding="10dp"
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Update Day Month"/>
+
+        <Button
+
+            android:padding="10dp"
+            android:id="@+id/balance_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Update Year"/>
+
+        <Button
+            android:layout_margin="25dp"
+            android:padding="10dp"
+            android:id="@+id/overload_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Load Limit"/>
+
+        <Button
+            android:padding="10dp"
+            android:id="@+id/tod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="TOD"/>
+
+        <Button
+            android:layout_margin="25dp"
+            android:padding="10dp"
+            android:id="@+id/allowed_wh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Monthly Allowed WH"/>
+
+        <Button
+            android:padding="10dp"
+            android:id="@+id/set_max_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Set Max Current 8 AMP"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
