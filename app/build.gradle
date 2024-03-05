@@ -7,7 +7,7 @@ android {
         minSdkVersion 26
         vectorDrawables.useSupportLibrary true
 
-        applicationId "com.omcpower.simple_bluetooth_le_terminal"
+        applicationId "com.techadmin.simple_bluetooth_le_terminal"
         versionCode 1
         versionName "1.0"
     }
