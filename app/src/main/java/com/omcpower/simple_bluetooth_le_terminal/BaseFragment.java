@@ -190,7 +190,7 @@ public abstract class BaseFragment extends Fragment implements ServiceConnection
         } finally {
             cmd = str;
             flag = getFlag();
-            sendToServer(str,flag,1);
+            //sendToServer(str,flag,1);
         }
     }
 
@@ -247,7 +247,7 @@ public abstract class BaseFragment extends Fragment implements ServiceConnection
         } catch (Exception e) {
 
         } finally {
-            sendToServer(cmd,flag,2);
+            //sendToServer(cmd,flag,2);
             cmd = "";
             flag = "";
         }

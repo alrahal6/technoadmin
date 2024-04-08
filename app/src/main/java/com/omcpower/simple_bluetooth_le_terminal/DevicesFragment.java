@@ -299,7 +299,8 @@ public class DevicesFragment extends ListFragment {
 
     @Override
     public void onListItemClick(@NonNull ListView l, @NonNull View v, int position, long id) {
-        getSuperUsers(position);
+        //getSuperUsers(position);
+        connectToDevice(position, 1);
         /*
         stopScan();
         BluetoothUtil.Device device = listItems.get(position-1);
